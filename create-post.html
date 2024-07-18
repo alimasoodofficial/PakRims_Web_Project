@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Post</title>
+</head>
+<body>
+ 
+   <!-- Header Section starts -->
+<header>
+    <div class="menu">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <ul class="menu-list">
+            <li><a href="about.html">About Us</a></li>
+            <li><i class="fas fa-edit"></i><a href="create-post.html">Create a Post</a></li>
+            <li><a href="read-post.html">Read a Post</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="nav-logo">
+        <a href="index.html"><img src="assets/logo.png" alt="Logo"></a>
+    </div>
+
+    <div class="social-icons">
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+</header>
+
+<!--Header Section ends-->
+
+    
+   
+
+    <!--banner section starts-->
+    <section class="banner create-banner">
+        
+            
+        <div class="banner-content ">
+            <h1>Publish your Passion your way</h1>
+            <p>Create a unique and beautiful blog easily</p>
+            
+        </div>
+        <div class="floating-image">
+            <img src="assets/car-vector.png">
+        </div>
+    </section>
+    <!--banner section ends-->
+
+
+
+
+    <!--Form starts-->
+    <div class="create-post" id="form">
+
+            <form id="postForm">
+            
+                <div class="form-group">
+                    <label for="title" class="required">Post Title</label>
+                    <input type="text" id="title" name="title" required>
+                    <div class="error" id="titleError"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="author" class="required">Author Name</label>
+                    <input type="text" id="author" name="author" required>
+                    <div class="error" id="authorError"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="content" class="required">Content</label>
+                    <textarea id="content" name="content" rows="5" placeholder="write your post here...." required></textarea>
+                    <div class="error" id="contentError"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="tags">Tags (optional)</label>
+                    <input type="text" id="tags" name="tags" >
+                </div>
+                <div class="form-group ">
+                    <input type="submit" value="Create Post" >
+                </div>
+            </form>
+        
+
+    </div>
+
+    <!--Form ends-->
+
+
+
+
+
+
+
+
+
+      <!--Footer starts-->
+
+    <!-- Main Footer -->
+    <footer class="footer-main">
+        <div class="footer-c1">
+            <img src="assets/logobw.png" alt="Logo" class="footer-logo">
+            <p class="footer-description">#1 Car Blogging Website</p>
+            <div class="footer-social-icons">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-c2">
+            <h4>Menu</h4>
+            <ul class="footer-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="read-post.html">Blog</a></li>
+
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="Privacy-Policy.html">Privacy Policy</a></li>
+
+            </ul>
+        </div>
+        <div class="footer-c3">
+            <h4>Cars by Body Type</h4>
+            <ul class="footer-popular-posts">
+                <li><a href="post1.html">Sedan</a></li>
+                <li><a href="post1.html">hatchback</a></li>
+                <li><a href="post1.html">SUV</a></li>
+                <li><a href="post1.html">Mini Van</a></li>
+                <li><a href="post1.html">Double Cabin</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="copyright">
+        <p>PakRims ©2024 All Rights Reserved | Developed By Ali Masood</p>
+    </div>
+
+     <!--Footer ends-->
+
+    
+</body>
+</html>

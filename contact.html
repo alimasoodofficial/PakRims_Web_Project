@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+ 
+   <!-- Header Section starts -->
+<header>
+    <div class="menu">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <ul class="menu-list">
+            <li><a href="about.html">About Us</a></li>
+            <li><i class="fas fa-edit"></i><a href="create-post.html">Create a Post</a></li>
+            <li><a href="read-post.html">Read a Post</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="nav-logo">
+        <a href="index.html"><img src="assets/logo.png" alt="Logo"></a>
+    </div>
+
+    <div class="social-icons">
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+</header>
+
+<!--Header Section ends-->
+    
+   
+
+    <!--banner section starts-->
+    <section class="banner create-banner contact-page">
+        
+         <!--Form starts-->
+         <div class="contact-form-container">
+            <h1 >Contact Form</h1>
+            <form action="#" method="post">
+                <div class="contact-form-group">
+                    <label for="name" class="contact-form-label">Name</label>
+                    <input type="text" id="name" name="name" class="contact-form-input" placeholder="Your name" required>
+                </div>
+                <div class="contact-form-group">
+                    <label for="email" class="contact-form-label">Email</label>
+                    <input type="email" id="email" name="email" class="contact-form-input" placeholder="Your email" required>
+                </div>
+                <div class="contact-form-group">
+                    <label class="contact-form-label">Reason for Contact</label>
+                    <div class="contact-form-radio-group">
+                        <input type="radio" id="create_post" name="reason" value="Create Post" class="contact-form-radio" required>
+                        <label for="create_post">Create Post</label>
+                    </div>
+                    <div class="contact-form-radio-group">
+                        <input type="radio" id="delete_post" name="reason" value="Delete Post" class="contact-form-radio">
+                        <label for="delete_post">Delete Post</label>
+                    </div>
+                    <div class="contact-form-radio-group">
+                        <input type="radio" id="new_ideas" name="reason" value="New Ideas" class="contact-form-radio">
+                        <label for="new_ideas">New Ideas</label>
+                    </div>
+                    <div class="contact-form-radio-group">
+                        <input type="radio" id="collaboration" name="reason" value="Collaboration with CEO" class="contact-form-radio">
+                        <label for="collaboration">Collaboration with CEO</label>
+                    </div>
+                </div>
+                <div class="contact-form-group">
+                    <label for="message" class="contact-form-label">Message</label>
+                    <textarea id="message" name="message" class="contact-form-textarea" placeholder="Your message" required></textarea>
+                </div>
+                <button type="submit" class="contact-form-button">Submit</button>
+            </form>
+        </div>
+<!--Form ends-->
+    </section>
+    <!--banner section ends-->
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+   <!--Footer starts-->
+
+    <!-- Main Footer -->
+    <footer class="footer-main">
+        <div class="footer-c1">
+            <img src="assets/logobw.png" alt="Logo" class="footer-logo">
+            <p class="footer-description">#1 Car Blogging Website</p>
+            <div class="footer-social-icons">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-c2">
+            <h4>Menu</h4>
+            <ul class="footer-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="read-post.html">Blog</a></li>
+
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="Privacy-Policy.html">Privacy Policy</a></li>
+
+            </ul>
+        </div>
+        <div class="footer-c3">
+            <h4>Cars by Body Type</h4>
+            <ul class="footer-popular-posts">
+                <li><a href="post1.html">Sedan</a></li>
+                <li><a href="post1.html">hatchback</a></li>
+                <li><a href="post1.html">SUV</a></li>
+                <li><a href="post1.html">Mini Van</a></li>
+                <li><a href="post1.html">Double Cabin</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="copyright">
+        <p>PakRims ©2024 All Rights Reserved | Developed By Ali Masood</p>
+    </div>
+
+     <!--Footer ends-->
+
+    
+</body>
+</html>
